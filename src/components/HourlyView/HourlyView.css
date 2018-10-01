@@ -1,0 +1,16 @@
+.hourlyView {
+	width: 60%;
+	margin: 0 auto;
+}
+@media only screen and (max-width: 1600px) {
+	.hourlyView {
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.hourlyView {
+		width: 95%;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}

@@ -1,0 +1,36 @@
+.wCard {
+	background-color: #fff;
+	text-align: center;
+	width: min-content;
+	padding: 20px;
+	margin: 5px;
+}
+.wCard__date {
+	font-size: 16px;
+	font-weight: 600;
+}
+.wCard__img {
+	width: 140px;
+	grid-row: 2/3;
+}
+
+.wCard__temp {
+	position: relative;
+}
+
+.wCard__temp--big {
+	font-size: 36px;
+	margin-left: -25px;
+}
+.wCard__temp--small {
+	position: absolute;
+	color: rgb(155, 154, 154);
+	top: 5px;
+}
+
+.wCard__desc {
+	color: rgb(155, 154, 154);
+}
+.wCard__feel {
+	font-size: 12px;
+}

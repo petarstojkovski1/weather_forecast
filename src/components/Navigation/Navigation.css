@@ -1,0 +1,39 @@
+.navigation {
+	background-color: #255df4;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	color: white;
+	width: 60%;
+}
+
+@media only screen and (max-width: 1600px) {
+	.navbar {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.navbar {
+		width: 93%;
+	}
+}
+.rightNav {
+	display: flex;
+	flex-direction: row;
+}
+.navbar p {
+	margin: 5px 0;
+}
+.navbar a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.appName {
+	font-weight: 700;
+}
