@@ -1,15 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 const HourlyHeader = (props) => {
+	const { weather } = props;
+
 	return (
 		<div className="header">
 			<h1>
-				<Link to="/" style={{ textDecoration: 'none' }}>
+				<Link
+					to="/"
+					style={{ textDecoration: 'none', color: '#255df4' }}
+				>
 					&larr;
 				</Link>
 				Hourly View
 			</h1>
-			<p>Belgrade, Serbia {props.time}</p>
+			<p>{weather.date}</p>
 		</div>
 	);
 };

@@ -13,14 +13,14 @@ class HomeScreen extends Component {
 	componentWillMount() {
 		this.props.getWeather();
 	}
-	renderSpiner = () => {
+	renderSpinner = () => {
 		return <Spinner />;
 	};
 
 	render() {
 		const { weather, tempType } = this.props;
 		if (!weather || !weather.length) {
-			return this.renderSpiner();
+			return this.renderSpinner();
 		}
 
 		const dateNow = new Date();

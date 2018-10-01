@@ -53,7 +53,12 @@ class WeatherCard extends Component {
 					Real feel:
 					{weather.real_feel}
 				</p>
-				<Link to={`/hourlyview/${cardId}`}>SEE HOURLY &rarr;</Link>
+				<Link
+					to={`/hourlyview/${cardId}`}
+					style={{ textDecoration: 'none', color: '#255df4' }}
+				>
+					SEE HOURLY &rarr;
+				</Link>
 			</div>
 		);
 	}

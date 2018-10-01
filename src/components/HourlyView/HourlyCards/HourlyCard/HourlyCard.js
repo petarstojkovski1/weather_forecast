@@ -1,8 +1,8 @@
 import React from 'react';
-import {
-	WEATHER_TYPE_IMAGES,
-	WEATHER_TYPE_LABELS
-} from '../../../../util/enum';
+// import {
+// 	WEATHER_TYPE_IMAGES,
+// 	WEATHER_TYPE_LABELS
+// } from '../../../../util/enum';
 import './HourlyCard.css';
 
 const HourlyCard = (props) => {
@@ -12,6 +12,7 @@ const HourlyCard = (props) => {
 			<img
 				className="hourlyCard__img"
 				src="/images/clear_sky.png"
+				alt="Weather"
 				// src={
 				//     WEATHER_TYPE_IMAGES[
 				//         weather.hourly.PM['2'].description_flag
